@@ -40,5 +40,28 @@ body{
      background-color: #512DA8;
 }
 
+.radio-label {
+        display: inline-block;
+        margin: 12px;
+      }
 
-
+@media screen and (max-width: 767px) {
+    .container {
+        vertical-align: top;
+    }
+    
+          .media{
+            flex-wrap: wrap;
+          }
+          .h3 {
+            order: -1;
+          }
+        }
+.tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        
+     
